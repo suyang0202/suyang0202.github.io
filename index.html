@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="林曜辰的單頁個人電子名片，支援中英文與深淺色主題切換。">
+  <title>林曜辰 | Personal Card</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="auroraCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand magnetic" href="#home" aria-label="Go to home">
+      <span class="brand-mark">YC</span>
+      <span data-i18n="brand">林曜辰</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#about" data-i18n="navAbout">關於</a>
+      <a href="#work" data-i18n="navWork">事蹟</a>
+      <a href="#contact" data-i18n="navContact">聯絡</a>
+    </nav>
+    <div class="header-actions" aria-label="Display controls">
+      <button class="icon-button magnetic" id="languageToggle" type="button" aria-label="Switch language">
+        <span class="button-main">EN</span>
+      </button>
+      <button class="icon-button magnetic" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span class="theme-icon">◐</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal" data-i18n="heroEyebrow">互動設計師 / 資料敘事者 / 城市觀察家</p>
+        <h1 class="hero-title reveal" data-i18n="heroTitle">林曜辰</h1>
+        <p class="hero-lead reveal" data-i18n="heroLead">把複雜資訊變成會呼吸的介面，讓科技看起來冷靜，使用起來卻很有溫度。</p>
+        <div class="hero-meta reveal">
+          <span data-i18n="heroLocation">台北 Taipei</span>
+          <span data-i18n="heroStatus">開放合作中</span>
+          <span data-i18n="heroFocus">AI × 產品體驗</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Animated digital portrait card">
+        <div class="device-card">
+          <div class="portrait-orbit">
+            <div class="portrait-core">
+              <span>YC</span>
+            </div>
+            <i></i><i></i><i></i><i></i>
+          </div>
+          <div class="spec-grid">
+            <div><strong>94%</strong><span data-i18n="specSignal">故事訊號</span></div>
+            <div><strong>36</strong><span data-i18n="specProjects">完成專案</span></div>
+            <div><strong>8.7</strong><span data-i18n="specMotion">動態指數</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="marquee-band" aria-label="Interests">
+      <div class="marquee-track">
+        <span>Interface Design</span><span>Creative Coding</span><span>Data Storytelling</span><span>Photography</span><span>AI Prototyping</span>
+        <span>Interface Design</span><span>Creative Coding</span><span>Data Storytelling</span><span>Photography</span><span>AI Prototyping</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+        <h2 data-i18n="aboutTitle">關於我</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-panel reveal">
+          <h3 data-i18n="aboutCardTitle">我是誰</h3>
+          <p data-i18n="aboutBody">林曜辰是一位虛構的產品設計師，擅長把資料、動畫與敘事節奏揉成一個好理解的互動體驗。週末會在城市裡拍霓虹招牌，也會把咖啡店的收據整理成小型資料視覺化。</p>
+        </article>
+        <article class="glass-panel reveal">
+          <h3 data-i18n="skillsTitle">技能光譜</h3>
+          <div class="skill-bars">
+            <label><span>HTML/CSS/JS</span><b style="--value: 96%"></b></label>
+            <label><span>Motion Design</span><b style="--value: 91%"></b></label>
+            <label><span>Product Strategy</span><b style="--value: 86%"></b></label>
+            <label><span>AI Workflow</span><b style="--value: 88%"></b></label>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section achievements" id="work">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="workEyebrow">Milestones</p>
+        <h2 data-i18n="workTitle">虛構事蹟</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <time>2026</time>
+          <h3 data-i18n="m1Title">設計「城市心跳儀表板」</h3>
+          <p data-i18n="m1Body">將即時交通、天氣與活動資料轉換成沉浸式城市脈搏視覺，入選虛構互動設計獎。</p>
+        </article>
+        <article class="timeline-item reveal">
+          <time>2025</time>
+          <h3 data-i18n="m2Title">發表 AI 原型工作坊</h3>
+          <p data-i18n="m2Body">帶領 600 位產品人用一天做出會動、會說明、會收集回饋的互動原型。</p>
+        </article>
+        <article class="timeline-item reveal">
+          <time>2024</time>
+          <h3 data-i18n="m3Title">完成 100 天創意程式挑戰</h3>
+          <p data-i18n="m3Body">每天用原生 JavaScript 寫一個微型視覺實驗，累積一座可互動的數位花園。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dashboard">
+      <div class="data-stage reveal">
+        <div class="data-copy">
+          <p class="eyebrow" data-i18n="dataEyebrow">Live Profile</p>
+          <h2 data-i18n="dataTitle">一張會動的電子名片</h2>
+          <p data-i18n="dataBody">數字、興趣、專案狀態與社群入口以動態方式呈現，像產品發表頁一樣把個人故事推向前景。</p>
+        </div>
+        <div class="metrics">
+          <div class="metric magnetic"><strong data-count="128">0</strong><span data-i18n="metricIdeas">點子草稿</span></div>
+          <div class="metric magnetic"><strong data-count="42">0</strong><span data-i18n="metricTalks">公開分享</span></div>
+          <div class="metric magnetic"><strong data-count="19">0</strong><span data-i18n="metricCities">走訪城市</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+        <h2 data-i18n="contactTitle">聯絡我</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-card reveal">
+          <h3 data-i18n="contactCardTitle">一起做點漂亮又有用的東西</h3>
+          <p data-i18n="contactBody">歡迎聊產品設計、資料視覺化、互動網頁、AI 工作流程，或只是交換一份很好喝的咖啡地圖。</p>
+          <a class="primary-link magnetic" href="mailto:hello@yuchen.example">hello@yuchen.example</a>
+        </div>
+        <div class="social-grid reveal">
+          <a class="magnetic" href="#" aria-label="LinkedIn">LinkedIn<span>@yuchen-lin</span></a>
+          <a class="magnetic" href="#" aria-label="Instagram">Instagram<span>@neon.yc</span></a>
+          <a class="magnetic" href="#" aria-label="GitHub">GitHub<span>@yc-labs</span></a>
+          <a class="magnetic" href="#" aria-label="Threads">Threads<span>@yuchen.moves</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span data-i18n="footer">© 2026 林曜辰。虛構人物，真實動態。</span>
+  </footer>
+</body>
+</html>
