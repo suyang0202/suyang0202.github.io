@@ -1,81 +1,81 @@
 const translations = {
   zh: {
-    brand: "林曜辰",
+    brand: "蘇暘",
     navAbout: "關於",
     navWork: "事蹟",
     navContact: "聯絡",
-    heroEyebrow: "互動設計師 / 資料敘事者 / 城市觀察家",
-    heroTitle: "林曜辰",
-    heroLead: "把複雜資訊變成會呼吸的介面，讓科技看起來冷靜，使用起來卻很有溫度。",
+    heroEyebrow: "台北醫學大學牙醫學系大一新生 / 小說愛好者",
+    heroTitle: "蘇暘",
+    heroLead: "從病人走向治療者，期許成為一位具有專業能力和同理心的牙醫師。",
     heroLocation: "台北 Taipei",
-    heroStatus: "開放合作中",
-    heroFocus: "AI × 產品體驗",
-    specSignal: "故事訊號",
-    specProjects: "完成專案",
-    specMotion: "動態指數",
+    heroStatus: "牙醫系新鮮人",
+    heroFocus: "閱讀 × 醫療 × 同理心",
+    specSignal: "IELTS",
+    specProjects: "TOEIC",
+    specMotion: "英文成果",
     aboutEyebrow: "About",
     aboutTitle: "關於我",
     aboutCardTitle: "我是誰",
-    aboutBody: "林曜辰是一位虛構的產品設計師，擅長把資料、動畫與敘事節奏揉成一個好理解的互動體驗。週末會在城市裡拍霓虹招牌，也會把咖啡店的收據整理成小型資料視覺化。",
-    skillsTitle: "技能光譜",
+    aboutBody: "我是一位愛好閱讀的牙醫系學生，因為從小豐富的牙醫治療經驗而產生成為一位牙醫師的想法。期許自己未來能夠成為一位同時具備專業知識與同理心，能夠為病患找回自信與笑容的牙醫師。",
+    skillsTitle: "學習與興趣",
     workEyebrow: "Milestones",
-    workTitle: "虛構事蹟",
-    m1Title: "設計「城市心跳儀表板」",
-    m1Body: "將即時交通、天氣與活動資料轉換成沉浸式城市脈搏視覺，入選虛構互動設計獎。",
-    m2Title: "發表 AI 原型工作坊",
-    m2Body: "帶領 600 位產品人用一天做出會動、會說明、會收集回饋的互動原型。",
-    m3Title: "完成 100 天創意程式挑戰",
-    m3Body: "每天用原生 JavaScript 寫一個微型視覺實驗，累積一座可互動的數位花園。",
-    dataEyebrow: "Live Profile",
-    dataTitle: "一張會動的電子名片",
-    dataBody: "數字、興趣、專案狀態與社群入口以動態方式呈現，像產品發表頁一樣把個人故事推向前景。",
-    metricIdeas: "點子草稿",
-    metricTalks: "公開分享",
-    metricCities: "走訪城市",
+    workTitle: "事蹟",
+    m1Title: "取得雅思 8.5 分",
+    m1Body: "以穩定的閱讀與表達能力完成 IELTS 測驗，作為未來醫學學習與國際交流的基礎。",
+    m2Title: "多益 980 分",
+    m2Body: "在聽力與閱讀測驗中取得高分，持續培養能理解專業文獻與清楚溝通的語言能力。",
+    m3Title: "英文學測作文佳作",
+    m3Body: "透過文字整理觀點，也在閱讀小說的過程中練習理解不同角色與人生處境。",
+    dataEyebrow: "Profile Notes",
+    dataTitle: "在書頁與診間之間前進",
+    dataBody: "閱讀讓我練習理解人，牙醫治療經驗讓我知道病人的不安。這張電子名片記錄一位牙醫系新生的起點。",
+    metricIdeas: "雅思成績",
+    metricTalks: "多益成績",
+    metricCities: "重要里程",
     contactEyebrow: "Contact",
     contactTitle: "聯絡我",
-    contactCardTitle: "一起做點漂亮又有用的東西",
-    contactBody: "歡迎聊產品設計、資料視覺化、互動網頁、AI 工作流程，或只是交換一份很好喝的咖啡地圖。",
-    footer: "© 2026 林曜辰。虛構人物，真實動態。"
+    contactCardTitle: "歡迎與我聯絡",
+    contactBody: "如果你想聊牙醫學習、英文準備、小說閱讀，或只是分享一本最近讀到的好書，歡迎寄信給我。",
+    footer: "© 2026 蘇暘 Jimmy Su。保持閱讀，也保持溫柔。"
   },
   en: {
-    brand: "Yuchen Lin",
+    brand: "Jimmy Su",
     navAbout: "About",
     navWork: "Milestones",
     navContact: "Contact",
-    heroEyebrow: "Interaction Designer / Data Storyteller / City Observer",
-    heroTitle: "Yuchen Lin",
-    heroLead: "I turn complex information into interfaces that breathe, making technology feel calm, clear, and quietly human.",
+    heroEyebrow: "Freshman in Dentistry at Taipei Medical University / Novel Lover",
+    heroTitle: "Jimmy Su",
+    heroLead: "From patient to future healer, I hope to become a dentist with both professional ability and empathy.",
     heroLocation: "Taipei, Taiwan",
-    heroStatus: "Open to collaborate",
-    heroFocus: "AI × Product Experience",
-    specSignal: "Story Signal",
-    specProjects: "Projects Shipped",
-    specMotion: "Motion Index",
+    heroStatus: "Dentistry Freshman",
+    heroFocus: "Reading × Healthcare × Empathy",
+    specSignal: "IELTS",
+    specProjects: "TOEIC",
+    specMotion: "English Milestone",
     aboutEyebrow: "About",
     aboutTitle: "About Me",
     aboutCardTitle: "Who I Am",
-    aboutBody: "Yuchen Lin is a fictional product designer who blends data, motion, and narrative rhythm into understandable interactive experiences. On weekends, he photographs neon signs and turns cafe receipts into tiny data visualizations.",
-    skillsTitle: "Skill Spectrum",
+    aboutBody: "I am a dentistry student who loves reading. Growing up with many dental treatment experiences led me to imagine becoming a dentist myself. I hope to become a clinician with both professional knowledge and empathy, helping patients regain confidence and smiles.",
+    skillsTitle: "Studies & Interests",
     workEyebrow: "Milestones",
-    workTitle: "Fictional Wins",
-    m1Title: "Designed the City Pulse Dashboard",
-    m1Body: "Transformed live traffic, weather, and event feeds into an immersive civic heartbeat visualization for a fictional interaction award.",
-    m2Title: "Hosted an AI Prototyping Lab",
-    m2Body: "Guided 600 product makers to build moving, explainable, feedback-ready prototypes in one focused day.",
-    m3Title: "Completed 100 Days of Creative Code",
-    m3Body: "Created a native JavaScript visual experiment every day, growing an interactive digital garden.",
-    dataEyebrow: "Live Profile",
-    dataTitle: "A Business Card in Motion",
-    dataBody: "Numbers, interests, project status, and social links appear dynamically, pushing the personal story forward like a product reveal.",
-    metricIdeas: "Idea Drafts",
-    metricTalks: "Public Talks",
-    metricCities: "Cities Explored",
+    workTitle: "Milestones",
+    m1Title: "IELTS 8.5",
+    m1Body: "Completed the IELTS exam with strong reading and expression skills, building a foundation for future medical study and international exchange.",
+    m2Title: "TOEIC 980",
+    m2Body: "Earned a high score in listening and reading while continuing to build the language ability needed for professional literature and clear communication.",
+    m3Title: "English GSAT Essay Honorable Mention",
+    m3Body: "Writing helped me organize ideas, while reading novels taught me to understand different characters and life situations.",
+    dataEyebrow: "Profile Notes",
+    dataTitle: "Between Books and the Clinic",
+    dataBody: "Reading teaches me to understand people; dental treatment experiences taught me what patients may fear. This card marks the beginning of a dentistry freshman.",
+    metricIdeas: "IELTS Score",
+    metricTalks: "TOEIC Score",
+    metricCities: "Milestone Year",
     contactEyebrow: "Contact",
     contactTitle: "Contact",
-    contactCardTitle: "Let’s make something beautiful and useful",
-    contactBody: "Reach out for product design, data visualization, interactive websites, AI workflows, or an excellent coffee map exchange.",
-    footer: "© 2026 Yuchen Lin. Fictional person, real motion."
+    contactCardTitle: "Feel free to reach out",
+    contactBody: "I would be happy to talk about dentistry, English preparation, novels, or a good book you recently read.",
+    footer: "© 2026 Jimmy Su. Keep reading, stay gentle."
   }
 };
 
@@ -92,7 +92,7 @@ function setLanguage(nextLanguage) {
     node.textContent = translations[language][key] || node.textContent;
   });
   langButton.textContent = language === "zh" ? "EN" : "繁";
-  document.title = language === "zh" ? "林曜辰 | Personal Card" : "Yuchen Lin | Personal Card";
+  document.title = language === "zh" ? "蘇暘 | Jimmy Su" : "Jimmy Su | Personal Card";
 }
 
 document.getElementById("languageToggle").addEventListener("click", () => {
@@ -174,11 +174,15 @@ function initGsap() {
   });
   document.querySelectorAll(".metric strong").forEach((counter) => {
     const target = Number(counter.dataset.count);
-    gsap.to(counter, {
-      textContent: target,
+    const hasDecimal = !Number.isInteger(target);
+    const state = { value: 0 };
+    gsap.to(state, {
+      value: target,
       duration: 1.4,
       ease: "power2.out",
-      snap: { textContent: 1 },
+      onUpdate: () => {
+        counter.textContent = hasDecimal ? state.value.toFixed(1) : Math.round(state.value);
+      },
       scrollTrigger: { trigger: counter, start: "top 86%", once: true }
     });
   });
@@ -225,8 +229,8 @@ function drawAurora() {
   const theme = root.dataset.theme;
   const fade = theme === "dark" ? 0.13 : 0.08;
   const colors = theme === "dark"
-    ? ["rgba(84,214,255,", "rgba(255,107,214,", "rgba(167,255,131,"]
-    : ["rgba(0,113,227,", "rgba(176,0,185,", "rgba(22,131,58,"];
+    ? ["rgba(216,166,79,", "rgba(184,106,84,", "rgba(126,155,116,"]
+    : ["rgba(169,111,44,", "rgba(156,79,63,", "rgba(95,125,96,"];
 
   const gradient = ctx.createRadialGradient(pointer.x * innerWidth, pointer.y * innerHeight, 0, innerWidth / 2, innerHeight / 2, innerWidth * 0.9);
   gradient.addColorStop(0, colors[0] + fade + ")");
